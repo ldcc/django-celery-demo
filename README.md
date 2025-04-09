@@ -2,7 +2,7 @@
 
 ## 环境
 
-```bash
+```shell
 docker run -d -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
 conda create -n django
@@ -18,7 +18,7 @@ pip install python-crontab
 
 ## 测试
 
-```bash
+```shell
 # 数据库配置
 #python manage.py makemigrations
 #python manage.py migrate
